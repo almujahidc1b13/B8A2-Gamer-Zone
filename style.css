@@ -131,6 +131,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     background-color:  rgb(249, 241, 241);
+    padding-right: 130px;
 
 }
 .section-contents{
@@ -245,6 +246,10 @@ nav{
     padding: 0 240px;
     justify-content: center;
     
+    
+}
+.extra:hover{
+    border: 1px solid yellow;
 }
 .extra{
     height: 80px;
@@ -259,3 +264,51 @@ nav{
     font-weight: 600;
     
 }
+
+/* footer section style */
+
+.footer{
+    max-width: 1920px;
+    height: 636px;
+    background-color: #64616c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.ancor-list{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+.f-ancor{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+ }
+ .ancor-icon{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+ }
+ .f-icon{
+   
+ }
+ .f-li> ul{
+   display: flex;
+   gap: 60px;
+   list-style: none;
+   color: rgba(255, 255, 255, 0.60);
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+ }
+ .f-para{
+    padding-bottom: 120px;
+ }
