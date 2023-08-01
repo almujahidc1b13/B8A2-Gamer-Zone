@@ -245,9 +245,10 @@ nav{
 .multy-btn{
     display: flex;
     flex-wrap: wrap;
-    gap: 27px;
+    row-gap: 50px;
+    
     padding: 0 240px;
-    justify-content: center;
+    justify-content: space-around;
     
     
 }
@@ -272,7 +273,7 @@ nav{
 
 .footer{
     max-width: 100%;
-    height: 636px;
+    height: auto;
     background-color: #64616c;
     display: flex;
     flex-direction: column;
@@ -296,18 +297,21 @@ nav{
  }
  .ancor-icon{
     display: flex;
+
     gap: 40px;
     justify-content: center;
     align-items: center;
  }
- .f-icon{
-   
+ .ancor-icon{
+    padding: 50px 0 0 0;
+     
  }
  .f-li> ul{
    display: flex;
    gap: 60px;
    list-style: none;
    color: rgba(255, 255, 255, 0.60);
+   padding: 50px 0;
    text-align: center;
    font-size: 16px;
    font-weight: 500;
@@ -372,9 +376,11 @@ nav{
         display: flex;
         flex-direction: column;
     }
-    .img-container{
-       
+  
+    .inner-img{
+        display: none;
     }
+       
 
     .multy-btn{
         height: 100%;
@@ -382,6 +388,8 @@ nav{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2px;
+        justify-content: center;
+        padding: 0 0;
     }
     .foul{
         height: 10px;
@@ -394,6 +402,33 @@ nav{
         font-weight: 100;
         
     }
+    .ancor-icon{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
+    .ancor-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 50px  ;
+
+    }
+    .f-li> ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    .f-li> ul> li{
+        justify-content: space-around;
+        text-align: center;
+    }
+    .f-para{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
 
 }
 
